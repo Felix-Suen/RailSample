@@ -1,5 +1,15 @@
+<div class="center jumbotron">
+  <h1>Welcome to Sample App</h1>
 
-<h1><%= yield(:title) %> Page</h1>
-<p>
-  Welcome Home
-</p>
+  <h2>This is the Home Page</h2>
+
+  <%= link_to "Sign up now!", "#", class: "btn btn-lg btn-primary" %>
+
+  <p>
+    Welcome Home
+  </p>
+
+</div>
+
+<%= link_to image_tag("logo.png", alt: "rails logo"),
+      "http://rubyonrails.org" %>
