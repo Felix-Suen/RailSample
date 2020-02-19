@@ -30,6 +30,12 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'mini_magick', '~> 4.8'
 gem 'jquery-rails'
 
+gem 'faker'
+
+gem 'will_paginate', '~> 3.1.7'
+
+gem 'bootstrap-will_paginate'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
